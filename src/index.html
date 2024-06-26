@@ -9,6 +9,22 @@
     <title>Vite Template</title>
   </head>
   <body>
+    <div id="box" class="box box-red"></div>
+    <button id="button">BOTON</button>
+
+    <!--     action="" no se usa ya, no hace falta ponerlo -->
+    <!--     el for del label tiene que ser el mismo que el del input para que se asocien -->
+    <!-- name: campo obligatorio en los input de los formularios -->
+
+    <form id="form">
+      <label for="name">Nombre</label>
+      <input type="text" id="name" name="nombre" placeholder="nombre" />
+      <label for="gender-man">Man</label>
+      <input type="radio" name="gender" id="gender-man" />
+      <label for="gender-woman">Woman</label>
+      <input type="radio" name="gender" id="gender-woman" />
+      <input type="submit" value="SEND" />
+    </form>
     <script type="module" src="./js/index.js"></script>
   </body>
 </html>

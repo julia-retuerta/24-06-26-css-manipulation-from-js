@@ -1,7 +1,22 @@
 html {
   scroll-behavior: smooth;
 }
+
 body {
-  background-color: #111;
+  background-color: #595959;
   font-family: sans-serif;
+}
+
+.box {
+  width: 200px;
+  height: 200px;
+  border: 1px solid blue;
+}
+
+.box-red {
+  background-color: red;
+}
+
+.box-green {
+  background-color: green;
 }
